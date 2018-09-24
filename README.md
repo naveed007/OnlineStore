@@ -10,3 +10,11 @@ Sales tax varies based on the type of products
  category C products carry no levy
 
 Swagger Url: http://localhost:8080/swagger-ui.html
+
+Steps to build and run: 
+
+1.Download or clone the repository and unzip.
+2.Inside OnlineStore directory run : 
+  mvn clean install
+  mvn spring-boot:run
+3.http://localhost:8080/swagger-ui.html to  test from swagger.
